@@ -19,8 +19,8 @@ features + XGBoost with balanced sample weights. See `methodology.md` for detail
 
 | Notebook | Description |
 |----------|-------------|
-| `baselines.ipynb` | Catch22 + Random Forest, MultiROCKET |
-| `ablations.ipynb` | Foundation model comparisons (MOMENT, TiReX, Chronos-2), adaptation strategies, feature/classifier ablations |
+| `Baseline_clean_standalone.ipynb` | Catch22 + Random Forest, MultiROCKET |
+| `ablation_study_and_solution_analysis.ipynb` | Chronos-2 feature extraction, layer-depth & pooling ablations, classifier benchmarking (Ridge, LightGBM, XGBoost, TabICL) |
 | `best_solution.ipynb` | Final pipeline: Chronos-2 embeddings + handcrafted features + XGBoost |
 
 ## Setup
